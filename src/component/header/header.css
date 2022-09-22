@@ -1,0 +1,24 @@
+.header {
+    background-color: #436171;
+    width: 8.3vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.header-user, .header-action, .header-menu {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    padding: 10px ;
+    text-align: center;
+}
+
+.header-style {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 516px) {
+ 
+}

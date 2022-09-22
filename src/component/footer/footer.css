@@ -1,0 +1,24 @@
+.footer {
+    background-color: #E6E7E8 ;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer_info h4 {
+color: #147d97}
+
+.footer_info_list {
+    list-style-type: none;
+}
+
+.footer_info_mxh {
+    display: flex;
+    justify-content: space-around
+}
+
+.footer_info_icon {
+    font-size: 30px;
+}
