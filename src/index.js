@@ -1,10 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import "./index.css";
+import "./assets/fonts/outfit/Outfit-Bold.ttf";
+import "./assets/fonts/outfit/Outfit-Light.ttf";
+import "./assets/fonts/outfit/Outfit-Regular.ttf";
+import "./assets/fonts/din-pro-cond/DINProCond-Black.ttf";
+import "./assets/fonts/din-pro-cond/DINProCond-Extlight.ttf";
+import "./assets/fonts/google-sans/GoogleSans-Bold.ttf";
+import "./assets/fonts/google-sans/GoogleSans-Medium.ttf";
+import "./assets/fonts/google-sans/GoogleSans-Regular.ttf";
+
 import App from "./App";
-import "antd/dist/antd.min.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
-import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,8 +19,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

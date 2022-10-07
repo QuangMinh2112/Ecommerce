@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Outfit Light";
+  src: local("Outfit"),
+    url("./assets/fonts/outfit/Outfit-Light.ttf") format("truetype");
+  font-weight: lighter;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Outfit Regular";
+  src: local("Outfit"),
+    url("./assets/fonts/outfit/Outfit-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Outfit Bold";
+  src: local("Outfit"),
+    url("./assets/fonts/outfit/Outfit-Bold.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "DIN Pro Cond Bold";
+  src: local("DIN Pro"),
+    url("./assets/fonts/din-pro-cond/DINProCond-Black.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "DIN Pro Cond Light";
+  src: local("DIN Pro"),
+    url("./assets/fonts/din-pro-cond/DINProCond-Extlight.ttf") format("truetype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Google Sans Regular";
+  src: local("Google Sans"),
+    url("./assets/fonts/google-sans/GoogleSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Google Sans Bold";
+  src: local("Google Sans"),
+    url("./assets/fonts/google-sans/GoogleSans-Medium.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Google Sans Black";
+  src: local("Google Sans"),
+    url("./assets/fonts/google-sans/GoogleSans-Bold.ttf") format("truetype");
+  font-weight: bolder;
+}
+
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --border-primary-color: #436171;
+  --lighter-primary-color: #6a808c;
+  --primary-white-color: #e6e7e8;
+  --secondary-color: #eecebe;
+}
+
+.Layout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
